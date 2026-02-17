@@ -54,7 +54,6 @@ private:
             return node;
         }
         else {
-            // found
             if (!node->left && !node->right) {
                 delete node;
                 return nullptr;
@@ -86,8 +85,6 @@ public:
     void remove(int key) { root = remove(root, key); }
 };
 
-// C#'taki "parent önce" mantığına benzeyen balanced insertion order
-// (mid al, sonra sol aralık, sonra sağ aralık)
 void build_balanced_order_like_cs(
     const std::vector<int>& sorted,
     std::vector<int>& out
