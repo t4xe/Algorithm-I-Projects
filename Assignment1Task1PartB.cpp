@@ -225,9 +225,9 @@ static void saveTimes(const fs::path& outPath, double tSort, double tLinear) {
 
 int main() {
     try {
-        // hey professor, please put your absolute path here, this is mine:
-        fs::path pA = "C:/Users/Eren/source/repos/AlgorithmAssignment1PartBSolution/AlgorithmAssignment1PartB/carddump1.csv";
-        fs::path pB = "C:/Users/Eren/source/repos/AlgorithmAssignment1PartBSolution/AlgorithmAssignment1PartB/carddump2.csv";
+        // please put your absolute path here, here is an example:
+        fs::path pA = "C:/Users/Example/source/repos/AlgorithmAssignment1PartBSolution/AlgorithmAssignment1PartB/carddump1.csv";
+        fs::path pB = "C:/Users/Example/source/repos/AlgorithmAssignment1PartBSolution/AlgorithmAssignment1PartB/carddump2.csv";
 
         auto dumpA = loadDumpA(pA);
         auto dumpB = loadDumpB(pB);
